@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resolutor de Sudoku</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div class="resolutor_sudoku">
+        <h1 class="intro">Resolutor de Sudoku</h1>
+        <p class="desc">Programa que resuelve un sudoku usando un algoritmo de <span
+                class="decorator_elem">retroceso</span></p>
+        <p class="instr_1">&#8594 Introduce un sudoku válido. Después pulsa el botón
+            <span class="decorator_elem">Resolver</span> para ver la solución</p>
+        <p class="instr_2">&#8594 Pulsa el botón <span class="decorator_elem">Limpiar</span>
+            para vacíar el tablero</p>
+        <div id="sudoku" class="sudoku"></div>
+        <button type="button" id="btn_solve" class="btn_solve">Resolver</button>
+        <button type="button" id="btn_clear" class="btn_clear">Limpiar</button>
+    </div>
+    <script type="module" defer src="scripts/app.js"></script>
+</body>
+
+</html>
